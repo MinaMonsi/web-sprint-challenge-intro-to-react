@@ -31,12 +31,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+   React is a JavaScript library for building fast and interactive user interfaces for web and mobile applications. It is an open-source, component based, front-end library and it is responsible for the view layer of an application. The view layer is what is responsible for how the application looks and feels. React solves the problem of handling dynamic data by instantly responding to changes and rendering the right components for a smooth user experience.
 
 1. Describe component state.
+   Component state is what allows us to create components that are dynamic and interactive. The state object holds property values that belong to the component. When the state object changes, the component re-renders and is updated.
 
 1. Describe props.
+   Props is short for properties in react. Props are used to pass data between React components. Passing props is like passing an argument to a function. We pass props into a React component and props will bring all the necessary data.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+   A side effect is an application state change that happens oustide of the called function. Side effects can be controlled with an effect hook and we can choose which state and to synchronize with the effect hook. Using effect hooks improves the performance of a component, prevents our browser from crashing, and prevents memory leaks in the app that is being created.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -44,27 +48,27 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
+- [x] Create a forked copy of this project
 - [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Run `npm install` to retrieve all needed dependencies.
-- [ ] In a separate terminal, run `npm run test:watch` to run tests.
-- [ ] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: `git push origin <firstName-lastName>`
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [x] Run `npm install` to retrieve all needed dependencies.
+- [x] In a separate terminal, run `npm run test:watch` to run tests.
+- [x] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
+- [x] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: `git push origin <firstName-lastName>`
 
 ### Task 2: Project Requirements
 
 Your finished project must include all of the following requirements:
 
-- [ ] Use the following API:
-  - [Star Wars API](https://swapi.dev/)
-- [ ] Use the documentation and Google to learn how to fetch characters from your API.
-- [ ] Obtain a list of characters. One or several requests might be needed, depending on the API.
-- [ ] Set the list of characters into state.
-- [ ] Render your characters to the screen:
+- [x] Use the following API:
+- [x] Star Wars API](https://swapi.dev/)
+- [x] Use the documentation and Google to learn how to fetch characters from your API.
+- [x] Obtain a list of characters. One or several requests might be needed, depending on the API.
+- [x] Set the list of characters into state.
+- [x] Render your characters to the screen:
   - Build a React component named 'Character' to render an individual character.
   - Map over the list in state, and for each character render a Character to the page.
   - You must display at least one element for each character in the data set.
