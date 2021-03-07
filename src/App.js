@@ -32,7 +32,12 @@ const App = () => {
 
       <div>
         {data.map((item) => {
-          return <Character name={item.name} eyeColor={item.eye_color} hairColor={item.hair_color} skinColor={item.skin_color}/>
+          return <Character 
+          name={item.name} 
+          eyeColor={item.eye_color} 
+          hairColor={item.hair_color} 
+          skinColor={item.skin_color} 
+          birthYear={item.birth_year}/>
         })}
       </div>
 
